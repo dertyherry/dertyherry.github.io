@@ -1,0 +1,73 @@
+@import 'https://fonts.googleapis.com/css?family=Bangers|Oswald';
+@import 'https://fonts.googleapis.com/css?family=Poiret+One';
+
+
+header {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Bangers', cursive;
+  (---border: 1px dashed black;--)
+}
+
+header h1 {
+  color: crimson;
+}
+
+nav {
+  display: inline;
+  background-color: white;
+  font-size: 20px;
+  text-align: center;
+  (--border: 1px dashed black;---)
+}
+
+nav ul li {
+  display: inline;
+  color: black;
+  text-align: center;
+  font-family: 'Poiret One', cursive
+
+  }
+
+  a {
+    color: black;
+  }
+
+  a:hover
+  a:focus {
+    color orange;
+  }
+
+body {
+  background-image: url(http://thesfshipyard.com/wp-content/uploads/2014/04/SHIPYARD_CRANE2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  (--border: 1px dashed black;--)
+}
+
+
+.main-content {
+  text-align: center;
+  padding-bottom: 10px;
+  background-color: rgba(237, 20, 61, 0.73);
+  padding: 10px;
+}
+
+.main-content h2 {
+  color: white;
+  font-family: 'Bangers', cursive;
+}
+
+.main-content p {
+  color: white;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+footer {
+  color: white;
+  text-align: center;
+  (--border: 1px dashed black;--)
+}
