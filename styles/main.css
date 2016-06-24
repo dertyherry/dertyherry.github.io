@@ -26,8 +26,8 @@ nav ul li {
   color: black;
   text-align: center;
   font-family: 'Poiret One', cursive
-
   }
+
 
   a {
     color: black;
@@ -67,7 +67,21 @@ body {
 }
 
 footer {
-  color: white;
   text-align: center;
-  (--border: 1px dashed black;--)
+  /*border: 1px dashed black*/
+}
+
+.warriors {
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+    font-family: 'Bangers', cursive;
+  }
+
+.giants {
+  color: orange;
+  background-color: black;
+  padding: 5px;
+  font-family: 'Bangers', cursive;  color: orange;
+
 }
