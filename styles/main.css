@@ -1,10 +1,14 @@
 @import 'https://fonts.googleapis.com/css?family=Bangers|Oswald';
 @import 'https://fonts.googleapis.com/css?family=Poiret+One';
 
+.container {
+
+}
+
 
 header {
   text-align: center;
-  font-size: 25px;
+  font-size: 3em;
   font-family: 'Bangers', cursive;
 
 }
@@ -37,7 +41,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .main-content {
@@ -45,17 +48,21 @@ body {
   padding-bottom: 10px;
   background-color: rgba(35, 32, 33, 0.73);
   padding: 10px;
-  border: 5px solid white;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+}
+
+.aboutme {
+  background-color: black;
+  font-family: 'Bangers', cursive;
+  color: white;
+  padding: 5px;
 }
 
 .name {
-  color: crimson;
-  font-weight: bold;
-}
-
-.main-content h2 {
-  color: white;
+  color: black;
   font-family: 'Bangers', cursive;
+  font-size: 25px;
 }
 
 .main-content p {
@@ -86,7 +93,6 @@ footer {
 .copyright {
   font-family: 'Oswald', sans-serif;
   color: white;
-  background-color: black;
 }
 
 .container {
