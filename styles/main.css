@@ -48,6 +48,11 @@ body {
   border: 5px solid white;
 }
 
+.name {
+  color: crimson;
+  font-weight: bold;
+}
+
 .main-content h2 {
   color: white;
   font-family: 'Bangers', cursive;
